@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+body{
+    background-color:lightyellow;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    border-bottom: 3px solid black;
+    background-color:#011936;
+    z-index: 2;
+    color:lightyellow;
+  }
+
+main {
+   color:midnightblue;
+   padding: 50px 150px;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: larger
+}
+
+.media-picture{
+    background-image:url(https://www.sdr.sp.gov.br/media/2019/05/sao-paulo.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+
+.youtube {
+    text-align :center
+}
+
+.curiosidades {
+    padding: 50px 150px;
+    color: midnightblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: larger
+}
+
+.social{
+    background-color:#011936;
+    padding: 15px;
+}
+
+.icon-yt{
+    position: relative;
+    left: 1200px;
+    padding: 4px;
+    width: 7%;
+    height: auto;
+}
+
+.icon-ig{
+    position: relative;
+    left: 1200px;
+    padding: 4px;
+    width: 7%;
+    height: auto;
+}
+
+.icon-yt:hover {
+    opacity: 0.5;
+}
+
+.icon-ig:hover {
+    opacity: 0.5;
+}
