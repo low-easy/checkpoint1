@@ -57,18 +57,16 @@ p{
 }
 
 .icon-yt{
-    position: relative;
     left: 1200px;
     padding: 4px;
-    width: 7%;
+    width: 100px;
     height: auto;
 }
 
 .icon-ig{
-    position: relative;
     left: 1200px;
     padding: 4px;
-    width: 7%;
+    width: 100px;
     height: auto;
 }
 
